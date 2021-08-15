@@ -8,8 +8,8 @@ zephyr_library()
 set(MY_MODULE_DIR ${ZEPHYR_CURRENT_MODULE_DIR})
 zephyr_include_directories(
   .
-  ${MY_MODULE_DIR}/my-module/include
+  ${MY_MODULE_DIR}/include
   )
 zephyr_library_sources(
-  ${MY_MODULE_DIR}/my-module/src/my-source.c
+  ${MY_MODULE_DIR}/src/my-source.c
   )
